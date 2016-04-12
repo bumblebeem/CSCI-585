@@ -1,9 +1,3 @@
-/*
-Fangxu Meng
-USCID 4541261151
-*/
-
-
 BEGIN TRANSACTION;
 CREATE TABLE "users" (
 	`username`	TEXT NOT NULL UNIQUE,

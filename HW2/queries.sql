@@ -1,9 +1,3 @@
-/*
-Fangxu Meng
-USCID 4541261151
-*/
-
-
 --Q1: OK
 SELECT substr(dob,1,4), COUNT(username)
 FROM users

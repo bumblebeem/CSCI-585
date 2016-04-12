@@ -1,0 +1,15 @@
+drop index gregion_spatial_index;
+drop table GREGION;
+DELETE FROM USER_SDO_GEOM_METADATA WHERE TABLE_NAME = 'GREGION' AND COLUMN_NAME = 'SHAPE';
+
+drop index glion_spatial_index;
+drop table GLION;
+DELETE FROM USER_SDO_GEOM_METADATA WHERE TABLE_NAME = 'GLION' AND COLUMN_NAME = 'LOCATION';
+
+drop index gambulance_spatial_index;
+drop table GAMBULANCE;
+DELETE FROM USER_SDO_GEOM_METADATA WHERE TABLE_NAME = 'GAMBULANCE' AND COLUMN_NAME = 'SHAPE';
+
+drop index gpond_spatial_index;
+drop table GPOND;
+DELETE FROM USER_SDO_GEOM_METADATA WHERE TABLE_NAME = 'GPOND' AND COLUMN_NAME = 'SHAPE';
